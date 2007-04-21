@@ -38,7 +38,7 @@ rm -rf %buildroot
 mkdir -p $RPM_BUILD_ROOT{%{ruby_sitelibdir},%{ruby_ridir},%{ruby_gemdir}/specifications}
 
 cp -a lib/* $RPM_BUILD_ROOT%{ruby_sitelibdir}
-cp -a ri/ri/{ActionMailer,MailHelper} $RPM_BUILD_ROOT%{ruby_ridir}
+cp -a ri/{ActionMailer,MailHelper} $RPM_BUILD_ROOT%{ruby_ridir}
 cp -a %rname-%version.gemspec $RPM_BUILD_ROOT%{ruby_gemdir}/specifications/
 
 for f in `find %buildroot%{ruby_sitelibdir} -name \*.rb`
