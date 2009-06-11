@@ -1,7 +1,7 @@
 %define rname actionmailer
 %define name ruby-%{rname}
-%define version 2.1.0
-%define release %mkrel 2
+%define version 2.1.2
+%define release %mkrel 1
 
 Summary:	Service layer for easy email delivery and testing
 Name:		%{name}
