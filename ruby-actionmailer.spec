@@ -1,6 +1,6 @@
 %define rname actionmailer
 %define name ruby-%{rname}
-%define version 2.1.2
+%define version 2.3.3
 %define release %mkrel 1
 
 Summary:	Service layer for easy email delivery and testing
@@ -8,7 +8,7 @@ Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 URL:		http://www.rubyonrails.org/
-Source0:	%{rname}-%{version}.gem
+Source0:	http://rubyforge.org/frs/download.php/60610/%{rname}-%{version}.gem
 License:	MIT
 Group:		Development/Ruby
 BuildRoot:	%{_tmppath}/%{name}-buildroot
