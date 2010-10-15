@@ -2,7 +2,7 @@
 
 Summary:	Service layer for easy email delivery and testing
 Name:		ruby-%{rname}
-Version:	2.3.9
+Version:	2.3.10
 Release:	%mkrel 1
 URL:		http://www.rubyonrails.org/
 Source0:	http://rubygems.org/downloads/%{rname}-%{version}.gem
