@@ -3,7 +3,7 @@
 Summary:	Service layer for easy email delivery and testing
 Name:		ruby-%{rname}
 Version:	2.3.10
-Release:	%mkrel 1
+Release:	%mkrel 2
 URL:		http://www.rubyonrails.org/
 Source0:	http://rubygems.org/downloads/%{rname}-%{version}.gem
 License:	MIT
@@ -11,6 +11,7 @@ Group:		Development/Ruby
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildArch:	noarch
 BuildRequires:	ruby-RubyGems 
+Provides:	rubygem(%{rname})
 
 %description
 Makes it trivial to test and deliver emails sent from a single service layer.
