@@ -2,13 +2,12 @@
 
 Summary:	Service layer for easy email delivery and testing
 Name:		ruby-%{rname}
-Version:	3.2.1
-Release:	2
+Version:	3.2.3
+Release:	1
 URL:		http://www.rubyonrails.org/
 Source0:	http://rubygems.org/downloads/%{rname}-%{version}.gem
 License:	MIT
 Group:		Development/Ruby
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildArch:	noarch
 BuildRequires:	ruby-RubyGems 
 Provides:	rubygem(%{rname})
@@ -25,9 +24,6 @@ rm -rf %{buildroot}
 gem install --ri -E -n %{buildroot}%{_bindir} --local --install-dir %{buildroot}/%{ruby_gemdir} --force %{SOURCE0}
 
 rm -rf %{buildroot}%{ruby_gemdir}/cache
-
-%clean
-rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
