@@ -3,7 +3,7 @@
 Summary:	Service layer for easy email delivery and testing
 Name:		ruby-%{rname}
 Version:	4.1.1
-Release:	1
+Release:	2
 URL:		http://www.rubyonrails.org/
 Source0:	http://rubygems.org/downloads/%{rname}-%{version}.gem
 License:	MIT
